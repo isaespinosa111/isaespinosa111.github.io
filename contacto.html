@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Contacto - Isabel Espinosa Orillac</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>Contacto - IEO</title>
 </head>
 <body>
     <header>
@@ -22,13 +22,19 @@
     <main>
         <section>
             <h1>Contacto</h1>
-            <p>¿Tienes preguntas o proyectos en mente? Contáctame:</p>
-            <ul>
-                <li>Email: <a href="mailto:isaespinosa111@gmail.com">isaespinosa111@gmail.com</a></li>
-                <li>Teléfono: +34 651 186 964</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/isabel-espinosa-orillac-5530ba251" target="_blank">Isabel Espinosa Orillac</a></li>
-                <li>Instagram: <a href="https://www.instagram.com/isabelespinosa.design" target="_blank">@isabelespinosa.design</a></li>
-            </ul>
+            <p>Si deseas ponerte en contacto conmigo, por favor, envíame un mensaje utilizando el siguiente formulario.</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 </body>
