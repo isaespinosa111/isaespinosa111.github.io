@@ -12,7 +12,7 @@ navLinks.forEach(link => {
 });
 
 // Add zoom effect on image hover
-const photoPlaceholders = document.querySelectorAll('.photo-placeholder');
+const photoPlaceholders = document.querySelectorAll('.intro-image');
 
 photoPlaceholders.forEach(placeholder => {
     placeholder.addEventListener('mouseover', () => {
